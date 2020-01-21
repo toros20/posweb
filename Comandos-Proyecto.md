@@ -8,7 +8,7 @@ npm init -y
 npm install express pg pg-hstore sequelize morgan @babel/poltallyfill cors dotenv
 
 # instalamos las dependencias de desarrollo
-npm install --save-dev @babel/core @babel/cli @babel/preset-env nodemon
+npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/node nodemon 
 
 # crear archivo .babelrc  en la carpeta principal del backend
 {
@@ -50,3 +50,4 @@ router.put('/:id', updateProducts);
 export default router;
 
 # crear los controladores y los modelos , seguir la programacion 
+Controllers/productsController.js
