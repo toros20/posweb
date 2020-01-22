@@ -51,3 +51,25 @@ export default router;
 
 # crear los controladores y los modelos , seguir la programacion 
 Controllers/productsController.js
+
+#########################################################
+
+# FRONTEND
+npx create-react-app frontend
+
+# crear carpeta componentes en src
+
+# instalar enrutador
+npm install react-router-dom
+
+# En app importar lo siguiente:
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+# la funcion App quedaria de la siguiente manera
+function App() {
+  return (
+    <Router>
+      <Route path="/" component={Products} />
+    </Router>
+  );
+}
