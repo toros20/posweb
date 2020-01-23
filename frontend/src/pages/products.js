@@ -2591,13 +2591,13 @@ export default class products extends Component {
                                                             <a className="nav-link active" data-toggle="tab" href="#home1" role="tab">Principal</a>
                                                         </li>
                                                         <li className="nav-item">
-                                                            <a className="nav-link" data-toggle="tab" href="#profile1" role="tab">Datos 1</a>
+                                                            <a className="nav-link" data-toggle="tab" href="#profile1" role="tab">Unidades</a>
                                                         </li>
                                                         <li className="nav-item">
-                                                            <a className="nav-link" data-toggle="tab" href="#messages1" role="tab">Datos 2</a>
+                                                            <a className="nav-link" data-toggle="tab" href="#messages1" role="tab">Liquidos</a>
                                                         </li>
                                                         <li className="nav-item">
-                                                            <a className="nav-link" data-toggle="tab" href="#settings1" role="tab">Datos 3</a>
+                                                            <a className="nav-link" data-toggle="tab" href="#settings1" role="tab">Peso</a>
                                                         </li>
                                                     </ul>
                                                     {/* Tab panes */}
@@ -2683,7 +2683,319 @@ export default class products extends Component {
                                                 <div className="row m-b-30">
                                                 <div className="col-lg-12 col-xl-12">
                                                                                     
-                                                
+                                                {/* Page-body start */}
+                                                <div className="page-body">
+                                                {/* Basic table card start */}
+                                                <div className="card">
+                                                    <div className="card-header">
+                                                    <h5>Basic table</h5>
+                                                    <span>use class <code>table</code> inside table element</span>
+                                                    <div className="card-header-right">
+                                                        <i className="icofont icofont-rounded-down" />
+                                                        <i className="icofont icofont-refresh" />
+                                                        <i className="icofont icofont-close-circled" />
+                                                    </div>
+                                                    </div>
+                                                    <div className="card-block table-border-style">
+                                                    <div className="table-responsive">
+                                                        <table className="table">
+                                                        <thead>
+                                                            <tr>
+                                                            <th>#</th>
+                                                            <th>First Name</th>
+                                                            <th>Last Name</th>
+                                                            <th>Username</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                            <th scope="row">1</th>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>@mdo</td>
+                                                            </tr>
+                                                            <tr>
+                                                            <th scope="row">2</th>
+                                                            <td>Jacob</td>
+                                                            <td>Thornton</td>
+                                                            <td>@fat</td>
+                                                            </tr>
+                                                            <tr>
+                                                            <th scope="row">3</th>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                            </tr>
+                                                        </tbody>
+                                                        </table>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                {/* Basic table card end */}
+                                                {/* Inverse table card start */}
+                                                <div className="card">
+                                                    <div className="card-header">
+                                                    <h5>Inverse table</h5>
+                                                    <span>use class <code>table-inverse</code> inside table element</span>
+                                                    <div className="card-header-right">
+                                                        <i className="icofont icofont-rounded-down" />
+                                                        <i className="icofont icofont-refresh" />
+                                                        <i className="icofont icofont-close-circled" />
+                                                    </div>
+                                                    </div>
+                                                    <div className="card-block table-border-style">
+                                                    <div className="table-responsive">
+                                                        <table className="table table-inverse">
+                                                        <thead>
+                                                            <tr>
+                                                            <th>#</th>
+                                                            <th>First Name</th>
+                                                            <th>Last Name</th>
+                                                            <th>Username</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                            <th scope="row">1</th>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>@mdo</td>
+                                                            </tr>
+                                                            <tr>
+                                                            <th scope="row">2</th>
+                                                            <td>Jacob</td>
+                                                            <td>Thornton</td>
+                                                            <td>@fat</td>
+                                                            </tr>
+                                                            <tr>
+                                                            <th scope="row">3</th>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                            </tr>
+                                                        </tbody>
+                                                        </table>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                {/* Inverse table card end */}
+                                                {/* Hover table card start */}
+                                                <div className="card">
+                                                    <div className="card-header">
+                                                    <h5>Hover table</h5>
+                                                    <span>use class <code>table-hover</code> inside table element</span>
+                                                    <div className="card-header-right">
+                                                        <i className="icofont icofont-rounded-down" />
+                                                        <i className="icofont icofont-refresh" />
+                                                        <i className="icofont icofont-close-circled" />
+                                                    </div>
+                                                    </div>
+                                                    <div className="card-block table-border-style">
+                                                    <div className="table-responsive">
+                                                        <table className="table table-hover">
+                                                        <thead>
+                                                            <tr>
+                                                            <th>#</th>
+                                                            <th>First Name</th>
+                                                            <th>Last Name</th>
+                                                            <th>Username</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                            <th scope="row">1</th>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>@mdo</td>
+                                                            </tr>
+                                                            <tr>
+                                                            <th scope="row">2</th>
+                                                            <td>Jacob</td>
+                                                            <td>Thornton</td>
+                                                            <td>@fat</td>
+                                                            </tr>
+                                                            <tr>
+                                                            <th scope="row">3</th>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                            </tr>
+                                                        </tbody>
+                                                        </table>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                {/* Hover table card end */}
+                                                {/* Contextual classes table starts */}
+                                                <div className="card">
+                                                    <div className="card-header">
+                                                    <h5>Contextual classes</h5>
+                                                    <span>For Make row Contextual add Contextual class like <code>.table-success</code> in <code> tr tag</code> and For cell add Contextual class in <code> td or th tag</code> . </span>
+                                                    <div className="card-header-right">
+                                                        <i className="icofont icofont-rounded-down" />
+                                                        <i className="icofont icofont-refresh" />
+                                                        <i className="icofont icofont-close-circled" />
+                                                    </div>
+                                                    </div>
+                                                    <div className="card-block table-border-style">
+                                                    <div className="table-responsive">
+                                                        <table className="table">
+                                                        <thead>
+                                                            <tr>
+                                                            <th>#</th>
+                                                            <th>First Name</th>
+                                                            <th>Last Name</th>
+                                                            <th>Username</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr className="table-active">
+                                                            <th scope="row">1</th>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>@mdo</td>
+                                                            </tr>
+                                                            <tr>
+                                                            <th scope="row">2</th>
+                                                            <td>Jacob</td>
+                                                            <td>Thornton</td>
+                                                            <td>@fat</td>
+                                                            </tr>
+                                                            <tr className="table-success">
+                                                            <th scope="row">3</th>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                            </tr>
+                                                            <tr>
+                                                            <th scope="row">4</th>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                            </tr>
+                                                            <tr className="table-warning">
+                                                            <th scope="row">5</th>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                            </tr>
+                                                            <tr>
+                                                            <th scope="row">6</th>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                            </tr>
+                                                            <tr className="table-danger">
+                                                            <th scope="row">7</th>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                            </tr>
+                                                            <tr>
+                                                            <th scope="row">8</th>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                            </tr>
+                                                            <tr className="table-info">
+                                                            <th scope="row">9</th>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                            </tr>
+                                                        </tbody>
+                                                        </table>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                {/* Contextual classes table ends */}
+                                                {/* Background Utilities table start */}
+                                                <div className="card">
+                                                    <div className="card-header">
+                                                    <h5>Background Utilities</h5>
+                                                    <span>Regular table background variants are not available with the inverse table, however, you may use <code>text or background utilities</code> to achieve similar styles.</span>
+                                                    <div className="card-header-right">
+                                                        <i className="icofont icofont-rounded-down" />
+                                                        <i className="icofont icofont-refresh" />
+                                                        <i className="icofont icofont-close-circled" />
+                                                    </div>
+                                                    </div>
+                                                    <div className="card-block table-border-style">
+                                                    <div className="table-responsive">
+                                                        <table className="table table-inverse">
+                                                        <thead>
+                                                            <tr>
+                                                            <th>#</th>
+                                                            <th>First Name</th>
+                                                            <th>Last Name</th>
+                                                            <th>Username</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr className="bg-primary">
+                                                            <th scope="row">1</th>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>@mdo</td>
+                                                            </tr>
+                                                            <tr>
+                                                            <th scope="row">2</th>
+                                                            <td>Jacob</td>
+                                                            <td>Thornton</td>
+                                                            <td>@fat</td>
+                                                            </tr>
+                                                            <tr className="bg-success">
+                                                            <th scope="row">3</th>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                            </tr>
+                                                            <tr>
+                                                            <th scope="row">4</th>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                            </tr>
+                                                            <tr className="bg-warning">
+                                                            <th scope="row">5</th>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                            </tr>
+                                                            <tr>
+                                                            <th scope="row">6</th>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                            </tr>
+                                                            <tr className="bg-danger">
+                                                            <th scope="row">7</th>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                            </tr>
+                                                            <tr>
+                                                            <th scope="row">8</th>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                            </tr>
+                                                            <tr className="bg-info">
+                                                            <th scope="row">9</th>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                            </tr>
+                                                        </tbody>
+                                                        </table>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                {/* Background Utilities table end */}
+                                                </div>
+                                                {/* Page-body end */}
+
+
                                                 </div>
                                             
                                                 </div>
